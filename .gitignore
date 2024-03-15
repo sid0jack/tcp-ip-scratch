@@ -54,13 +54,14 @@ dkms.conf
 # Rust-specific
 # -------------------
 # Target directory - This is where the compiled binaries and other artifacts are stored
-/target/
+rust/tcp_client/target
+rust/tcp_server/target
 
 # Uncomment this line if you're building a library and want to ignore Cargo.lock
 # /Cargo.lock
 
 # Ignore Cargo.lock for binary projects - Uncomment the above line for library projects
-# *.lock
+*.lock
 
 # If you're using rustup, to manage toolchains, you might want to ignore it
 # /rustup
