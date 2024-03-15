@@ -50,3 +50,90 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Rust-specific
+# -------------------
+# Target directory - This is where the compiled binaries and other artifacts are stored
+/target/
+
+# Uncomment this line if you're building a library and want to ignore Cargo.lock
+# /Cargo.lock
+
+# Ignore Cargo.lock for binary projects - Uncomment the above line for library projects
+# *.lock
+
+# If you're using rustup, to manage toolchains, you might want to ignore it
+# /rustup
+
+# Ignore editor-specific files
+# -------------------
+# VSCode
+.vscode/
+
+# Sublime Text
+*.sublime-*
+
+# IntelliJ
+.idea/
+
+# TextMate
+*.tm_properties
+
+# Vim
+[._]*.sw[a-p]
+[._]sw[a-p]
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+
+# History files
+.*_history
+
+# Session files
+*.session
+
+# Thumbnails
+._*
+
+# Files that might appear on external filesystems
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDouble
+
+# Log files
+*.log
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Directories cache files
+.cache/
+
+# MacOS files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
